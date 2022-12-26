@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Anifood</title>
 </head>
 <body>
@@ -22,31 +21,29 @@
         </nav>
     </header>
     <div class="banner">
-            <div class="banner-1 mySlides fade">
+            <div class="mySlides fade">
                 <img class="banner-img" src="img/food.png" alt="anifood tsusu">
             </div>
-            <div class="banner-2 mySlides fade">
+            <div class="mySlides fade">
                 <img class="banner-img" src="img/ramen.png" alt="anifood ramen">
             </div>
-            <div class="banner-3 mySlides fade">
+            <div class="mySlides fade">
                 <img class="banner-img" src="img/dango.jpg" alt="anifood dango">
             </div>
-        <div class="banner-text">
-            <h2 class="banner-h2"><strong>Welcome To <br> Anifood Restaurant</strong></h2>
-            <p class="banner-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum sapiente itaque eaque autem culpa ea tenetur nobis, aperiam dolores deserunt.</p>
-            <a class="banner-btn" href="#">RESERVATION</a>
-        </div>
+    </div>
+    <div class="banner-text">
+        <h2 class="banner-h2"><strong>Welcome To <br> Anifood Restaurant</strong></h2>
+        <p class="banner-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Rerum sapiente itaque eaque autem culpa ea tenetur nobis, aperiam dolores deserunt.</p>
+        <a class="banner-btn" href="#">RESERVATION</a>
     </div>
     <div class="banner-navigation">
-        <div class="slides-navigation">
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
     </div>
     <div class="slides-dots">
-        <a href="#" class="dot dot1" onclick="currentSlide(1)"></a> 
-        <a href="#" class="dot dot2" onclick="currentSlide(2)"></a> 
-        <a href="#" class="dot dot3" onclick="currentSlide(3)"></a>
+        <a href="#" class="dot1 dot" onclick="currentSlide(1)"></a> 
+        <a href="#" class="dot2 dot" onclick="currentSlide(2)"></a> 
+        <a href="#" class="dot3 dot" onclick="currentSlide(3)"></a>
     </div>
     <div class="about">
         <img class="about-img" src="img/chef.jpg" alt="">
@@ -58,5 +55,6 @@
             <a class="banner-btn" href="#">RESERVATION</a>
         </div>
     </div>
+<script src="script.js"></script>
 </body>
 </html>

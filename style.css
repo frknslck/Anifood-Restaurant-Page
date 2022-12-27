@@ -197,7 +197,7 @@ header{
 }
 
 .next {
-    right: 0;
+    right: 0px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -294,6 +294,7 @@ header{
 }
 
 .quote-b{
+    text-indent: -10px;
     color: white;
     font-size: 40px;
     margin-bottom: 25px;

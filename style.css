@@ -5,11 +5,12 @@
 }
 
 body{
+    background-color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden; 
 }
 
-/*************************************************** HEADER ******************************************************/
+/**************************************************! HEADER !*****************************************************/
 
 ul, li{
     list-style: none;
@@ -19,7 +20,7 @@ ul, li{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: rgb(217, 217, 217);
+    background-color: antiquewhite;
     height: 100px;
     position: absolute;
     width: 100%;
@@ -29,6 +30,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 10;
+    /* display: none; */
 }
 
 .navbar img{
@@ -79,7 +81,7 @@ header{
     transform: scaleX(1);
 }
 
-/******************************************* BANNER **************************************************************/
+/******************************************! BANNER !*************************************************************/
 
 .banner-img{
     width: 100vw;
@@ -88,7 +90,7 @@ header{
     position:relative;
 }
 
-.mySlides{
+.slides{
     display:none;
 }
 
@@ -205,15 +207,15 @@ header{
 
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: .5s;
 }
 
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .7}
     to {opacity: 1}
 }
 
-/********************************************************* ABOUT *************************************************/
+/********************************************************! ABOUT !************************************************/
 
 .about{
     display: grid;
@@ -272,3 +274,39 @@ header{
     background-color: #ed1c24;
     border-color: #ed1c24;
 }
+
+/***********************! QUOTE !***********************/
+
+.quote-bg{
+    background-image: url(../img/dango.jpg);
+    background-size:cover;
+    padding:100px 0;
+    background-attachment:fixed;background-position:center center;
+    position:relative;
+    height:350px;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: center;
+}
+
+.quote-b{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 400px;
+}
+
+strong{
+    color: red;
+}
+
+.quote-k{
+    color: white;
+    font-size: 25px;
+}
+
+/*****************! MENU !****************/

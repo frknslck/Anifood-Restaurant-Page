@@ -278,7 +278,7 @@ header{
 /***********************! QUOTE !***********************/
 
 .quote-bg{
-    background-image: url(../img/dango.jpg);
+    background-image: url(img/dango.jpg);
     background-size:cover;
     padding:100px 0;
     background-attachment:fixed;background-position:center center;

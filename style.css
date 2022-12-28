@@ -8,7 +8,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden; 
     background-color: antiquewhite;
-    z-index: 0;
+    /* z-index: 0; */
 }
 
 /**************************************************! HEADER !*****************************************************/
@@ -285,7 +285,7 @@ header{
     background-attachment:fixed;
     background-position:center center;
     position:relative;
-    z-index: 1;
+    /* z-index: 1; */
     height:350px;
 }
 
